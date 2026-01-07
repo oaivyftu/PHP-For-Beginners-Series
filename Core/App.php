@@ -11,8 +11,18 @@ class App
         static::$container = $container;
     }
 
+    public static function bind($key, $resolver)
+    {
+        static::setCcontainer()->bind($key, $resolver);
+    }
+
     public static function container()
     {
         return static::$container;
+    }
+
+    public static function resolve($key)
+    {
+        return static::container()->resolve($key);
     }
 }

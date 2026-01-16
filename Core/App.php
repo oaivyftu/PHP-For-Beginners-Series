@@ -13,7 +13,7 @@ class App
 
     public static function bind($key, $resolver)
     {
-        static::setCcontainer()->bind($key, $resolver);
+        static::setContainer()->bind($key, $resolver);
     }
 
     public static function container()

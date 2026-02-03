@@ -1,6 +1,6 @@
-# LaravelFromScratch
+# mini-laravel
 
-🚀 **LaravelFromScratch** is a lightweight PHP framework built from scratch for learning purposes.  
+🚀 **mini-laravel** is a lightweight PHP framework built from scratch for learning purposes.  
 The goal of this project is to help beginners understand how a modern PHP framework like Laravel works internally.
 
 > ⚠️ This project is for **educational purposes only**.  
